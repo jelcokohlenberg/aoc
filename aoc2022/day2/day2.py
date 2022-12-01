@@ -1,29 +1,8 @@
 def part_1():
-    hor = 0
-    vert = 0
-    for dir, dis in data:
-        if dir == 'forward':
-            hor += dis
-        elif dir == 'down':
-            vert += dis
-        else:
-            vert -= dis
-    return hor * vert
+
 
 
 def part_2():
-    hor = 0
-    aim = 0
-    vert = 0
-    for dir, dis in data:
-        if dir == "forward":
-            hor += dis
-            vert += aim * dis
-        elif dir == "down":
-            aim += dis
-        else:
-            aim -= dis
-    return hor * vert
 
 
 
